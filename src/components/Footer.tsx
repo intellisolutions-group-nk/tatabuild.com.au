@@ -13,7 +13,7 @@ export default function Footer() {
           <div className="space-y-6">
             <Link href="/" className="flex items-center group">
               <Image
-                src="/logo/logo.png"
+                src="/logo/Logo.png"
                 alt="Tata Build Logo"
                 width={160}
                 height={70}
