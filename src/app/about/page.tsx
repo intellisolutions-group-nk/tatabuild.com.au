@@ -109,7 +109,7 @@ export default function AboutPage() {
               <div className="relative">
                 <div className="rounded-2xl overflow-hidden shadow-2xl">
                   <Image
-                    src="/images/home/our-story.png"
+                    src="/images/home/our-story.jpg"
                     alt="About Tata Build"
                     width={800}
                     height={600}
@@ -239,11 +239,6 @@ export default function AboutPage() {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
-                {
-                  Icon: Award,
-                  title: "Licensed & Fully Insured",
-                  description: "We hold all required Australian building licenses and carry comprehensive insurance, giving you complete peace of mind on every project.",
-                },
                 {
                   Icon: Ruler,
                   title: "Precision Engineering",

@@ -17,7 +17,7 @@ export default function BlogPage() {
         <section className="relative pt-48 pb-32 overflow-hidden min-h-[60vh] flex items-center">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/images/blog/blog-residential-guide.png"
+              src="/images/blog/blog-residential-guide.jpg"
               alt="Tata Build Journal"
               fill
               priority

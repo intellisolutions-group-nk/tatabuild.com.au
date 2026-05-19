@@ -10,11 +10,12 @@ interface ServiceCardProps {
   index: number;
   slug: string;
   image?: string;
+  className?: string;
 }
 
-export default function ServiceCard({ title, description, Icon, index, slug }: ServiceCardProps) {
+export default function ServiceCard({ title, description, Icon, index, slug, className = "" }: ServiceCardProps) {
   return (
-    <Link href={`/services/${slug}`} className="block h-full">
+    <Link href={`/services/${slug}`} className={`block h-full ${className}`}>
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}

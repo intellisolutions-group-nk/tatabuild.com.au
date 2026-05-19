@@ -138,7 +138,7 @@ export default function Home() {
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {services.slice(0, 3).map((service, i) => (
+              {services.map((service, i) => (
                 <ServiceCard
                   key={i}
                   index={i}
@@ -147,13 +147,14 @@ export default function Home() {
                   Icon={service.icon}
                   image={service.image}
                   slug={service.slug}
+                  className={i === services.length - 1 && services.length % 3 === 1 ? "lg:col-start-2" : ""}
                 />
               ))}
             </div>
             <div className="text-center mt-12">
-              <Link href="/services">
+              {/* <Link href="/services">
                 <button className="btn-primary">View All Services</button>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </section>
@@ -295,9 +296,6 @@ export default function Home() {
                   Contact Us Now
                 </button>
               </Link>
-              <button className="border-2 border-secondary text-secondary py-4 px-10 rounded-full font-black text-lg hover:bg-secondary/10 transition-all">
-                Download Brochure
-              </button>
             </div>
           </div>
         </section>

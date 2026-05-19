@@ -7,10 +7,6 @@ export const faqData = [
         a: "We handle a wide range of residential and commercial construction projects including new home builds, commercial construction, home renovations and extensions, interior fitouts, structural repairs, concrete and formwork, site preparation and earthworks, and property development projects across Australia."
       },
       {
-        q: "Are you a licensed builder in Australia?",
-        a: "Yes. Tata Build Pty Ltd operates as a licensed construction company in Australia. All work is performed in compliance with applicable Australian building codes, standards, and licensing requirements."
-      },
-      {
         q: "What areas of Australia do you service?",
         a: "We are based in Australia and serve clients in our operating region. Contact us directly to confirm whether we service your specific location."
       }
@@ -29,7 +25,7 @@ export const faqData = [
       },
       {
         q: "Do you manage council approvals and building permits?",
-        a: "Yes. We provide guidance on and coordination of the required development applications, building permits, and other approvals needed for your construction project in Australia."
+        a: "Yes. We provide guidance on and coordination of the required development applications, building permits, and other approvals needed for your construction project."
       }
     ]
   },

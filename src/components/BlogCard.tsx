@@ -40,13 +40,6 @@ export default function BlogCard({ blog, index }: BlogCardProps) {
       </Link>
 
       <div className="p-8 flex flex-col flex-1">
-        <div className="flex items-center gap-6 mb-6 text-white/40 text-sm font-medium">
-          <div className="flex items-center gap-2">
-            <User size={16} className="text-primary" />
-            {blog.author}
-          </div>
-        </div>
-
         <Link href={`/blog/${blog.slug}`}>
           <h3 className="text-2xl font-outfit font-bold text-white mb-4 group-hover:text-primary transition-colors line-clamp-2">
             {blog.title}

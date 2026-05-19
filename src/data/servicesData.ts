@@ -35,10 +35,10 @@ export const services: Service[] = [
   {
     slug: "residential-construction",
     title: "Residential Construction",
-    description: "New home construction built to the highest Australian standards, from concept through to handover.",
-    details: "We build new homes that reflect our clients' vision and lifestyle, applying quality materials, skilled tradespeople, and rigorous project management at every stage. From initial design review and council approvals through to slab, frame, lockup, fitout, and final handover, Tata Build manages the complete residential construction process. We work closely with homeowners throughout the build, maintaining open communication and delivering a home that meets Australian building standards and exceeds client expectations.",
+    description: "New home construction built to the highest standards, from concept through to handover.",
+    details: "We build new homes that reflect our clients' vision and lifestyle, applying quality materials, skilled tradespeople, and rigorous project management at every stage. From initial design review and council approvals through to slab, frame, lockup, fitout, and final handover, Tata Build manages the complete residential construction process. We work closely with homeowners throughout the build, maintaining open communication and delivering a home that exceeds client expectations.",
     icon: HomeIcon,
-    image: "/images/service/Residential-Construction.webp",
+    image: "/images/service/Residential-Construction.jpg",
     features: [
       "Custom New Home Builds",
       "Council Approval Management",
@@ -74,14 +74,13 @@ export const services: Service[] = [
   {
     slug: "commercial-construction",
     title: "Commercial Construction",
-    description: "Commercial building projects delivered with precision, safety, and full compliance with Australian building codes.",
-    details: "Our commercial construction capability spans office buildings, retail fitouts, industrial facilities, and mixed-use developments. We apply the same commitment to quality and safety on commercial projects as we do on residential builds, backed by experienced site supervisors, licensed tradespeople, and rigorous compliance with Australian workplace health and safety requirements.",
+    description: "Commercial building projects delivered with precision and safety.",
+    details: "Our commercial construction capability spans office buildings, retail fitouts, industrial facilities, and mixed-use developments. We apply the same commitment to quality and safety on commercial projects as we do on residential builds, backed by experienced site supervisors and skilled tradespeople.",
     icon: Building2,
     image: "/images/service/Commercial-Construction.webp",
     features: [
       "Office & Retail Construction",
       "Industrial Facilities",
-      "Safety Compliance (WHS)",
       "Strict Timeline Management",
       "Turnkey Solutions"
     ],
@@ -105,9 +104,9 @@ export const services: Service[] = [
     ],
     process: [
       { title: "Feasibility Audit", description: "Evaluating project scope against site constraints and commercial objectives." },
-      { title: "Compliance Planning", description: "Ensuring all designs meet NCC requirements and workplace safety standards." },
+      { title: "Project Planning", description: "Ensuring all designs meet project requirements and safety standards." },
       { title: "Rapid Execution", description: "Strict project management to hit commercial deadlines without compromising quality." },
-      { title: "Project Completion", description: "Final certification and handover of a fully compliant commercial space." }
+      { title: "Project Completion", description: "Final handover of a complete commercial space." }
     ]
   },
   {
@@ -181,7 +180,7 @@ export const services: Service[] = [
       { title: "Project Audit", description: "Reviewing existing plans, budgets, and schedules to identify optimization areas." },
       { title: "Strategic Planning", description: "Developing a robust project roadmap with clear milestones and risk mitigation." },
       { title: "Oversight & Management", description: "Daily coordination of trades and vendors to keep the project on track." },
-      { title: "Quality Assurance", description: "Continuous monitoring to ensure every stage meets specified building standards." }
+      { title: "Quality Assurance", description: "Continuous monitoring to ensure every stage meets specified building requirements." }
     ]
   },
   {
@@ -235,13 +234,13 @@ export const services: Service[] = [
         answer: "Cracked walls (larger than 3mm), doors that won't close, uneven floors, and sagging roof lines are key indicators that require professional assessment."
       },
       {
-        question: "Do you provide engineering reports?",
-        answer: "We work alongside qualified structural engineers to provide certified reports and repair specifications."
+        question: "Do you provide structural reports?",
+        answer: "We work alongside qualified structural engineers to provide comprehensive reports and repair specifications."
       }
     ],
     process: [
       { title: "Expert Assessment", description: "Thorough inspection to identify the root cause of structural issues." },
-      { title: "Engineering Review", description: "Coordinating with structural engineers to develop certified repair plans." },
+      { title: "Engineering Review", description: "Coordinating with structural engineers to develop repair plans." },
       { title: "Precision Repair", description: "Executing repairs using high-grade materials and specialized techniques." },
       { title: "Safety Verification", description: "Final checks to ensure structural integrity and building safety." }
     ]
@@ -288,8 +287,7 @@ export const services: Service[] = [
       "Bulk Earthworks & Leveling",
       "Site Clearing & Demolition",
       "Retaining Wall Preparation",
-      "Drainage & Utility Trenches",
-      "Geotechnical Compliance"
+      "Drainage & Utility Trenches"
     ],
     faqs: [
       {
@@ -299,7 +297,7 @@ export const services: Service[] = [
     ],
     process: [
       { title: "Site Survey", description: "Determining existing utility locations and site boundaries." },
-      { title: "Clearing & Demo", description: "Removal of structures, vegetation, and debris with full safety compliance." },
+      { title: "Clearing & Demo", description: "Removal of structures, vegetation, and debris with full safety." },
       { title: "Bulk Earthworks", description: "Excavation and leveling to prepare the site for building platforms." },
       { title: "Subgrade Approval", description: "Ensuring the base is compacted and ready for structural foundations." }
     ]
@@ -326,7 +324,7 @@ export const services: Service[] = [
     ],
     process: [
       { title: "Initial Consultation", description: "Reviewing your concepts and providing feasibility feedback." },
-      { title: "Regulation Review", description: "Checking local council codes and building standards for your area." },
+      { title: "Regulation Review", description: "Checking local council codes and building requirements for your area." },
       { title: "Plan Optimization", description: "Advising on material choices and construction methods to fit your budget." },
       { title: "Permit Roadmap", description: "Developing a clear path for obtaining all necessary building approvals." }
     ]
@@ -337,7 +335,7 @@ export const services: Service[] = [
     description: "End-to-end property development support from site acquisition and planning through to construction and project completion.",
     details: "For investors and developers, Tata Build provides end-to-end property development support that combines our construction expertise with project feasibility guidance and development management.",
     icon: TrendingUp,
-    image: "/images/service/property-development.webp",
+    image: "/images/service/property-development.jpg",
     features: [
       "Feasibility Assessments",
       "Site Acquisition Support",

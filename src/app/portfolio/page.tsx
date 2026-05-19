@@ -18,7 +18,7 @@ export default function PortfolioPage() {
         <section className="relative pt-48 pb-32 overflow-hidden min-h-[60vh] flex items-center">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/images/projects/portfolio-hero.png"
+              src="/images/projects/portfolio-hero.jpg"
               alt="Our Portfolio"
               fill
               priority

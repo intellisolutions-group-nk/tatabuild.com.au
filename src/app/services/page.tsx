@@ -56,6 +56,7 @@ export default function ServicesPage() {
                   Icon={service.icon}
                   image={service.image}
                   slug={service.slug}
+                  className={i === services.length - 1 && services.length % 3 === 1 ? "lg:col-start-2" : ""}
                 />
               ))}
             </div>

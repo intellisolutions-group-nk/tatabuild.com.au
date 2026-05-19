@@ -6,7 +6,7 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen flex items-center overflow-hidden bg-secondary">
+    <section className="relative min-h-screen flex items-center overflow-hidden bg-secondary pt-40 pb-12 md:pt-0 md:pb-0">
       {/* Background with overlay */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -29,11 +29,11 @@ export default function Hero() {
             <span className="inline-block py-1 px-4 rounded-full bg-primary/20 text-primary border border-primary/30 font-bold text-sm mb-6 uppercase tracking-widest">
               Established 2023
             </span>
-            <h1 className="text-5xl md:text-7xl font-outfit font-black text-white leading-tight mb-6">
+            <h1 className="text-4xl md:text-7xl font-outfit font-black text-white leading-tight mb-6">
               Building Your <span className="text-primary">Vision</span>,<br />
               Delivering <span className="text-primary">Excellence</span>
             </h1>
-            <p className="text-xl text-white/70 mb-10 leading-relaxed max-w-xl">
+            <p className="text-lg md:text-xl text-white/70 mb-10 leading-relaxed max-w-xl">
               Tata Build Pty Ltd is Australia's trusted partner for high-quality residential and commercial construction. We build with integrity, safety, and superior craftsmanship
             </p>
 
@@ -48,9 +48,7 @@ export default function Hero() {
 
             <div className="mt-12 flex flex-wrap gap-6">
               {[
-                "Australian Standards",
                 "On-Time Delivery",
-                "Licensed & Insured",
               ].map((item, i) => (
                 <div key={i} className="flex items-center gap-2 text-white/60 text-sm">
                   <CheckCircle2 size={16} className="text-primary" />
